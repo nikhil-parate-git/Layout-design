@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.d1{
+    width: 100%;
+    height: 100%;
+}
+.top-cont{
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/purple.jpg");
+    background-size: cover;    
+}
+.buds{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.bottom-cont{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+}
+h1{
+    color: rgba(243, 148, 243, 0.623);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.cont-1{
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.cont-2{
+    color: white; color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+button{
+    border: 1px black;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:burlywood;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgba(247, 146, 247, 0.582);
+}
+@media (min-width:768px) {
+    .buds{
+        width: 50%;
+        height: 100%; 
+        padding: 10px;
+    }
+    img{
+        width: 80%;
+        height: 90%;
+        padding-bottom: 50px;
+    }
+    .top-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    h1{
+        color: rgba(243, 148, 243, 0.623);
+        font-size: 40px;
+        letter-spacing: 1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+    .cont-1{
+        color: white;
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 5px;
+    }
+    .cont-2{
+        color: white; color: white;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 5px;
+    }
+    button{
+        border: 1px black;
+        width: 210px;
+        height: 70px;
+        border-radius: 10px;
+        background-color:burlywood;
+        font-size: 30px;
+    }
+    button:hover{
+        background-color: rgba(247, 146, 247, 0.582);
+    }
+}
+@media (min-width:1024px) {
+    h1{
+        font-size: 30px;
+    }
+    .cont-2{
+        font-size: 30px;
+        padding: 10px;
+    }
+    button{
+        border: 1px black;
+        width: 190px;
+        height: 50px;
+        border-radius: 20px;
+        background-color:burlywood;
+        font-size: 20px;
+        outline: 1px solid wheat;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+}
