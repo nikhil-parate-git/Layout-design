@@ -30,24 +30,27 @@ body,html{
 }
 h1{
     color: rgba(243, 148, 243, 0.623);
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
 .cont-1{
+    margin-top: 15px;
     color: white;
-    font-size: 35px;
+    font-size: 34px;
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
 }
 .cont-2{
+    margin-top: 15px;
     color: white; color: white;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
 }
 button{
+    margin-top: 15px;
     border: 1px black;
     width: 150px;
     height: 50px;
